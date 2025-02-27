@@ -58,8 +58,7 @@ const UpdateDetails = () => {
       );
       alert(response.data.status);
 
-      // Navigate to DisplayDetails.js after successful update
-      navigate(`/alldetails`); // Adjust this route according to your actual route path
+      navigate(`/alldetails`); 
     } catch (error) {
       console.error("Error updating details:", error);
       alert("Failed to update details.");
