@@ -83,14 +83,6 @@ export default function TherapySessionTeacherBooking() {
         <br/>
         <br/>
 
-        {/* Logo Section */}
-        {/* <div className="logo-section">
-          <RouterLink to="#">
-            <img alt="Auth method" src={logo} width="150" />
-          </RouterLink>
-        </div> */}
-
-        {/* Card Section */}
         <div className="card">
           <div className="content">
             <div className="title-section">
@@ -98,10 +90,8 @@ export default function TherapySessionTeacherBooking() {
               <p className="caption">Fill out the form below to proceed with your booking</p>
             </div>
 
-            {/* Divider */}
             <hr />
 
-            {/* Form Section */}
             <form onSubmit={sendData}>
               <div className="form-group">
                 <label htmlFor="childName">Child's Name</label>
